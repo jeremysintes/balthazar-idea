@@ -1,3 +1,0 @@
-trello: y
-trello_board_name: {{cookiecutter.project_slug}}
-
