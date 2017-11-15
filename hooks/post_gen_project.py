@@ -25,5 +25,5 @@ if __name__ == '__main__':
         remove_file('LICENSE.rst')
     
     # Create the project management tools
-    #os.system("cd docs && make html && cd..")
-    #os.system("git init && git flow init && git commit -m 'initial commit' ")
+    os.system("cd docs && make html && cd..")
+    os.system('git init && git flow init && git add * && git commit -m "initial commit" ')
