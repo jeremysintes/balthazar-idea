@@ -3,49 +3,15 @@
 {{ cookiecutter.project_name }}
 {% for _ in cookiecutter.project_name %}={% endfor %}
 
-
+Idea under construction
+=======================
 {{ cookiecutter.project_short_description }}
+
 
 {% if is_open_source %}
 * Free software: {{ cookiecutter.open_source_license }}
 * Documentation: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io.
 {% endif %}
-
-Features
-========
-
-* TODO
-
-
-
-Quickstart
-==========
-
-1. Clone the git
-
-.. code-block:: console
-
-    git clone gh://{{ cookiecutter.git_username }}/{{ cookiecutter.project_slug }}
-
-2. It is recommended to create a developpement environment (exemple below with Anaconda):
-
-.. code-block:: console
-
-	conda create –n {{ cookiecutter.project_slug }}
-
-3. Activate the developpement environment :
-
-.. code-block:: console
-
-   activate {{ cookiecutter.project_slug }}
-
-4. Install the required librairies :
-
-.. code-block:: console
-
-    pip install -r requirements
-
-
 
 
 License
@@ -58,6 +24,7 @@ License
 {% if is_open_source %}
 {{ cookiecutter.project_name }} is licensed under the {{ cookiecutter.open_source_license }} - see the LICENSE.rst file for details
 {% endif %}
+
 
 Changes
 =======
