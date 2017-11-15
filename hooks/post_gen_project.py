@@ -26,4 +26,4 @@ if __name__ == '__main__':
     
     # Create the project management tools
     os.system("cd docs && make html && cd..")
-    os.system('git init && git flow init [-fd] && git add * && git commit -m "initial commit" ')
+    os.system('git init && git flow init -fd && git add * && git commit -m "initial commit" ')
